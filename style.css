@@ -4,15 +4,34 @@
 }
 
 body {
-    background: rgb(230, 202, 202)
+    background: rgb(230, 202, 202);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap
 }
 
 #ball {
-    background: rgb(58, 19, 148);
+    background: rgb(42, 17, 100);
     position: absolute;
-    height: 4vh;
-    width: 4vh;
+    height: 3vh;
+    width: 3vh;
     border-radius: 50%;
+    left: 50vw;
+    top: 40vh;
+}
+
+.block {
+    background: rgb(84, 192, 241);
+    /* position: absolute; */
+    /* float: left; */
+    /* opacity: 0.4; */
+    height: 5vh;
+    width: 5vh;
+    border-radius: 3px;
+    margin: 7px;
+}
+.dead {
+    background: rgb(255, 146, 146)
 }
 
 #platform {
